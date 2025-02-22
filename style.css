@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #ffff;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    background: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar .logo{
+    font-size: 25px;
+    font-weight: 700;
+}
+.navbar ul{
+    display: flex;
+    position: relative;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-left: 35px;
+    position: relative;
+    /* border-bottom: 2px solid transparent; */
+}
+
+.navbar ul li a{
+    font-size: 17px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+}
+
+.navbar ul li:hover a,
+.navbar ul li.active a {
+    color: #626161;
+    border-color: rgb(0, 0, 0);
+}
+
+
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 10px 15% 0;
+    color: black;
+}
+
+/* about */
+.about{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 10px 15% 0;
+    color: black;
+}
+
+.about-content h1{
+    font-size: 30px;
+    line-height: 1;
+}
+
+.about-content h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.about-content p{
+    margin: 10px 0 20px;
+    font-size: 15px;
+
+}
+
+.about-content .download-social{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    display: inline-block;
+    padding: 5px 20px;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.btn:hover{
+    background: transparent;
+    box-shadow: #000000;
+    color: #626161;
+}
+
+.about-content .social-icons{
+    margin-left: 20px;
+}
+
+.about-content .social-icons a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #020202;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: .5s;
+    box-shadow: #000000;
+}
+
+.about-content .social-icons a:hover{
+    background: #000000;
+    box-shadow: 0 0 10px #000000;
+    color: #ffffff;
+}
+
+.about-img .img-box{
+    position: relative;
+    width: 28vw;
+    height: 28vw;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #000000;
+    margin-left: 50px;
+}
+
+.about-img .img-box img{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/* experience */
+.card-experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 15%;
+    margin-top: 50px;
+}
+/* CARD */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 115px auto;
+    max-width: 80%;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #ffc5e0;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.card-headersunda {
+    background-color:  #ffcc99;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.card-headersejarah {
+    background-color: #caff9f;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-body {
+    padding: 40px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* PROJECT SUNDA */
+section {
+    text-align: justify;
+}
+
+aside {
+    float: right;
+    width: 75%;
+    padding-right: 10px;
+}
+
+/* aside p{
+    font-size: 13px;
+} */
+
+.sunda{
+    font-size: 20px;
+    padding: 50px;
+    background-color: #ffcc99;
+    text-align: center;
+    color: #000000;
+    margin-top: 100px;
+}
+.card-sunda{
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 100px auto;
+    max-width: 80%;
+    overflow: hidden;
+}
+
+.card-sunda2{
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 100px auto;
+    max-width: 80%;
+    overflow: hidden;
+}
+article img{
+    border-radius: 8px;
+    height: auto;
+}
+.fakta-center{
+    text-align: center;
+}
+mark{
+    background-color: #ffcc99;
+}
+
+/* PROJECT PIPAS */
+
+.pipas{
+    font-size: 20px;
+    padding: 50px;
+    background-color: #ffaed4;
+    text-align: center;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.card-pipas{
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px 100px
+}
+
+.section-pipas{
+    text-align: justify;
+}
+
