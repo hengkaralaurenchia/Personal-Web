@@ -246,14 +246,6 @@ aside {
     overflow: hidden;
 }
 
-.card-sunda2{
-    box-shadow: 0 4px 8px 0 black;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 100px auto;
-    max-width: 80%;
-    overflow: hidden;
-}
 article img{
     border-radius: 8px;
     height: auto;
@@ -287,3 +279,43 @@ mark{
     text-align: justify;
 }
 
+/* project sejarah */
+section-sejarah {
+    text-align: justify;
+}
+
+aside {
+    float: right;
+    width: 75%;
+    padding-right: 10px;
+}
+
+.sejarah{
+    font-size: 20px;
+    padding: 50px;
+    background-color:  #caff9f;
+    text-align: center;
+    color: #000000;
+    margin-top: 100px;
+}
+.card-sejarah{
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 100px auto;
+    max-width: 80%;
+    overflow: hidden;
+}
+article img{
+    border-radius: 8px;
+    height: auto;
+}
+
+marksejarah{
+    background-color: #caff9f;
+}
+
+/* SEJARAH 1.0 */
+section-1{
+    text-align: justify;
+}
