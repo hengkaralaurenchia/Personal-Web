@@ -323,3 +323,63 @@ section-1{
 .ul-sejarah{
     padding: 0px 20px;
 }
+
+.btn-back{
+    display: inline-block;
+    padding: 5px 90px;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+    margin: 0px 10%;
+    margin-bottom: 90px;
+    margin-top: -80px;
+}
+
+.btn-back:hover{
+    background: transparent;
+    box-shadow: #000000;
+    color: #626161;
+}
+
+.btn-next{
+    display: inline-block;
+    padding: 5px 75px;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+    margin-left:30%;
+    margin-bottom: 90px;
+    margin-top: -80px;
+}
+
+.btn-next:hover{
+    background: transparent;
+    box-shadow: #000000;
+    color: #626161;
+}
+
+.btn-next-halamanawal{
+    display: inline-block;
+    padding: 5px 75px;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+    margin-left:28%;
+    margin-bottom: 90px;
+    margin-top: -80px; 
+}
