@@ -383,3 +383,9 @@ section-1{
     margin-bottom: 90px;
     margin-top: -80px; 
 }
+
+.btn-next-halamanawal:hover{
+    background: transparent;
+    box-shadow: #000000;
+    color: #626161;
+}
